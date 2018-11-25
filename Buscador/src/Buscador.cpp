@@ -2,6 +2,10 @@
 
 using namespace std;
 
+Buscador::Buscador(){
+
+}
+
 Buscador::Buscador(string chave, string valor){
     elem_.insert(pair <string, string> (chave, valor));
 }
@@ -12,8 +16,7 @@ Buscador::Buscador(string palavra){
 }
 
 Buscador::~Buscador(){
-    //delete elem_;
-    //delete valores_;
+
 }
 
 void Buscador::inserir(string chave, string valor){

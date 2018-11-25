@@ -10,6 +10,7 @@ using namespace std;
 class Buscador
 {
     public:
+        Buscador();
         Buscador(string palavra);
         Buscador(string chave, string valor);
         virtual ~Buscador();
@@ -19,7 +20,7 @@ class Buscador
         string minusculo();
 
     private:
-        multimap<string, string> elem_;  //
+        multimap<string, string> elem_;
         vector<string> valores_;        //Vetor dinâmico que recebe valores associados a chave passada como parâmetro
         string palavra_;
 };

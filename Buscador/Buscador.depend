@@ -1,21 +1,24 @@
 # depslib dependency file v1.0
-1543184398 source:c:\users\jaqueline\desktop\buscador\buscador\main.cpp
+1543191634 source:c:\users\jaqueline\desktop\buscador\buscador\main.cpp
 	<iostream>
-	<string>
-	<map>
-	<iterator>
-	"Buscador.h"
-	<vector>
 	<fstream>
 	<cstdlib>
-	<cctype            >
+	<cctype>
+	"Buscador.h"
+	"util.h"
 
-1543188160 c:\users\jaqueline\desktop\buscador\buscador\include\buscador.h
+1543192513 c:\users\jaqueline\desktop\buscador\buscador\include\buscador.h
 	<map>
 	<string>
 	<iterator>
 	<vector>
 
-1543188164 source:c:\users\jaqueline\desktop\buscador\buscador\src\buscador.cpp
+1543191358 source:c:\users\jaqueline\desktop\buscador\buscador\src\buscador.cpp
 	"Buscador.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<cctype>
+
+1543188220 c:\users\jaqueline\desktop\buscador\buscador\util.h
 
