@@ -15,10 +15,10 @@ int main()
     string objetivo;
     do{
         cout << "Digite o que deseja buscar ou sair, para sair:" << endl;
-        Buscador linha;
         cin >> objetivo;
-        objetivo = minusculo(objetivo);
-        objetivo = retira_caracter(objetivo);
+        Buscador linha(objetivo);
+        linha.minusculo();
+        linha.retira_caracter();
         string n_arq;
         for(int i = 1; i < 4; i++){
                 //Define qual arquivo será aberto
