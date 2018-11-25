@@ -1,15 +1,14 @@
-#include <iostream>
-#include <string>
-#include <map>
-#include <iterator>
 #include "Buscador.h"
-#include <vector>
+#include <iostream>
 #include <fstream>
 #include <cstdlib>
-#include <cctype            >
+#include <cctype>
 
 
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
 
 string minusculo(string palavra){
     for(unsigned int i = 0; i < palavra.length(); i++){
@@ -64,7 +63,7 @@ int main()
 {
     string objetivo;
     do{
-        cout << "Digite o que deseja buscar:" << endl << "Digite sair, para sair" << endl;
+        cout << "Digite o que deseja buscar ou sair, para sair:" << endl;
         Buscador linha;
         cin >> objetivo;
         objetivo = minusculo(objetivo);
