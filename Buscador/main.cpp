@@ -6,7 +6,7 @@
 #include <vector>
 #include <fstream>
 #include <cstdlib>
-#include <cctype>
+#include <cctype            >
 
 
 using namespace std;
@@ -64,7 +64,7 @@ int main()
 {
     string objetivo;
     do{
-        cout << "Digite o que deseja buscar ou sair, para sair:" << endl;
+        cout << "Digite o que deseja buscar:" << endl << "Digite sair, para sair" << endl;
         Buscador linha;
         cin >> objetivo;
         objetivo = minusculo(objetivo);

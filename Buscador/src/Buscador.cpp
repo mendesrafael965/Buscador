@@ -1,8 +1,4 @@
 #include "Buscador.h"
-#include <map>
-#include <string>
-#include <iterator>
-#include <vector>
 
 using namespace std;
 
@@ -35,3 +31,4 @@ vector<string> Buscador::busca(string chave){
     }
     return valores_;
 }
+
