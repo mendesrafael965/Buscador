@@ -10,12 +10,12 @@
 	<cstdlib>
 	<cctype            >
 
-1543184200 c:\users\jaqueline\desktop\buscador\buscador\include\buscador.h
+1543188160 c:\users\jaqueline\desktop\buscador\buscador\include\buscador.h
 	<map>
 	<string>
 	<iterator>
 	<vector>
 
-1543184417 source:c:\users\jaqueline\desktop\buscador\buscador\src\buscador.cpp
+1543188164 source:c:\users\jaqueline\desktop\buscador\buscador\src\buscador.cpp
 	"Buscador.h"
 

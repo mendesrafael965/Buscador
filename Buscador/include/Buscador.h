@@ -5,7 +5,6 @@
 #include <iterator>
 #include <vector>
 
-
 using namespace std;
 
 class Buscador
@@ -16,7 +15,6 @@ class Buscador
         virtual ~Buscador();
         void inserir(string chave, string valor);
         vector<string> busca(string chave);
-
 
     private:
         multimap<string, string> elem_;  //
