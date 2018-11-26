@@ -1,6 +1,7 @@
 #include "Buscador.h"
 
-using namespace std;
+using std::multimap;
+using std::pair;
 
 Buscador::Buscador(){
 

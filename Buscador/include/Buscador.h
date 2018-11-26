@@ -5,7 +5,9 @@
 #include <iterator>
 #include <vector>
 
-using namespace std;
+using std::string;
+using std::vector;
+using std::multimap;
 
 class Buscador
 {

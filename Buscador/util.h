@@ -1,3 +1,10 @@
+#include <fstream>
+#include <iostream>
+
+using std::ifstream;
+using std::cout;
+using std::endl;
+
 string minusculo(string palavra){
     for(unsigned int i = 0; i < palavra.length(); i++){
         palavra[i] = tolower(palavra[i]);    //toupper()–> Retorna a minúscula de uma letra

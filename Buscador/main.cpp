@@ -1,5 +1,3 @@
-#include <iostream>
-#include <fstream>
 #include <cstdlib>
 #include <cctype>
 #include "Buscador.h"
@@ -16,21 +14,27 @@ int main()
     do{
         cout << "Digite o que deseja buscar ou sair, para sair:" << endl;
         cin >> objetivo;
-        Buscador linha(objetivo);
-        linha.minusculo();
-        linha.retira_caracter();
+        Buscador linha;
+        objetivo = minusculo(objetivo);
+        objetivo = retira_caracter(objetivo);
         string n_arq;
-        for(int i = 1; i < 4; i++){
+        for(int i = 1; i <= 5; i++){
                 //Define qual arquivo será aberto
             switch(i){
                 case 1:
-                    n_arq = "d1.txt";
+                    n_arq = "hamlet.txt";
                 break;
                 case 2:
-                    n_arq = "d2.txt";
+                    n_arq = "kinglear.txt";
                 break;
                 case 3:
-                    n_arq = "d3.txt";
+                    n_arq = "macbeth.txt";
+                break;
+                case 4:
+                    n_arq = "othello.txt";
+                break;
+                case 5:
+                    n_arq = "romeoandjuliet.txt";
                 break;
             }
 
